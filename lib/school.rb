@@ -22,5 +22,9 @@ class School
     #   new_var[key] = value.sort
     # end
     # new_var
+    
+    new_var = roster
+    new_var.each{|key, value| value.sort!}
+    
   end
 end
